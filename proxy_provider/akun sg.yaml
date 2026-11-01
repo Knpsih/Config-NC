@@ -1,14 +1,14 @@
 proxies:
-  - name: sg-trojan.1server.co Edu
-    server: sg-trojan.1server.co
+  - name: akun sg
+    server: domain
     port: 443
     type: trojan
-    password: aaba06b0-b392-11f0-9e16-1577c1651679
+    password: 
     skip-cert-verify: true
-    sni: vn-oc.ruangguru.com
+    sni: bug sni
     network: ws
     ws-opts:
-      path: /welcome
+      path: 
       headers:
-        Host: sg-trojan.1server.co
+        Host: domain
     udp: true
