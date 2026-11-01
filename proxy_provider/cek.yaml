@@ -1,0 +1,17 @@
+proxies:
+  - name: 10.lowh.net edu
+    server: 10.lowh.net
+    port: 443
+    type: vmess
+    uuid: 7435ef60-2dc4-11f1-bebb-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vn-oc.ruangguru.com
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 10.lowh.net
+    udp: true

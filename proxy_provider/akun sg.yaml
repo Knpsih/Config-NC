@@ -1,0 +1,14 @@
+proxies:
+  - name: sg-trojan.1server.co Edu
+    server: sg-trojan.1server.co
+    port: 443
+    type: trojan
+    password: aaba06b0-b392-11f0-9e16-1577c1651679
+    skip-cert-verify: true
+    sni: vn-oc.ruangguru.com
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: sg-trojan.1server.co
+    udp: true
