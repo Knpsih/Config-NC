@@ -1,0 +1,12 @@
+payload:
+
+  # --- KEYWORDS ---
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,fbpigeon
+  
+  # --- DOMAIN SUFFIX ---
+  - DOMAIN-SUFFIX, 
+  
+  # --- DOMAIN ---
+  - DOMAIN,

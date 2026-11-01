@@ -1,0 +1,13 @@
+payload:
+
+  # --- KEYWORDS ---
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-KEYWORD,googlevideo
+  - DOMAIN-KEYWORD,ytimg
+  - DOMAIN-KEYWORD,yt3
+  
+  # --- DOMAIN SUFFIX ---
+  - DOMAIN-SUFFIX, 
+  
+  # --- DOMAIN ---
+  - DOMAIN,
