@@ -1,0 +1,14 @@
+proxies:
+  - name: 71.lowh.net
+    server: 71.lowh.net
+    port: 443
+    type: trojan
+    password: 343b3300-8fe7-11f1-923d-1577c1651679
+    skip-cert-verify: true
+    sni: vn-oc.ruangguru.com
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: 71.lowh.net
+    udp: true
