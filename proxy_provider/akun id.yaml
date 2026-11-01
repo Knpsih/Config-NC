@@ -1,14 +1,14 @@
 proxies:
-  - name: 71.lowh.net
-    server: 71.lowh.net
+  - name: domain
+    server: domain
     port: 443
     type: trojan
-    password: 343b3300-8fe7-11f1-923d-1577c1651679
+    password: 
     skip-cert-verify: true
-    sni: vn-oc.ruangguru.com
+    sni: bug sni
     network: ws
     ws-opts:
-      path: /welcome
+      path: 
       headers:
-        Host: 71.lowh.net
+        Host: domain
     udp: true
