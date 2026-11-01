@@ -1,5 +1,5 @@
 proxies:
-  - name: domain
+  - name: akun id
     server: domain
     port: 443
     type: trojan
