@@ -1,0 +1,14 @@
+proxies:
+  - name: cek akun
+    server: domain
+    port: 443
+    type: trojan
+    password: 
+    skip-cert-verify: true
+    sni: bug sni
+    network: ws
+    ws-opts:
+      path: 
+      headers:
+        Host: domain
+    udp: true
